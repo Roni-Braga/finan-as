@@ -10,12 +10,12 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Entity
+@Entity(name="receita")
 @Table(name="receita")
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode
+@EqualsAndHashCode(of="id")
 public class Receita {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,9 +23,12 @@ public class Receita {
 	private String nome;
 	private double valor;
 	
-	public void receita(dadosReceita dados) {
-		this.id = dados.id();
+	public Receita(dadosReceita dados) {
+			
 		this.nome = dados.nome();
 		this.valor = dados.valor();
 	}
+
+	
+	
 }
