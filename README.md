@@ -1,6 +1,5 @@
 # Projeto Finanças
-o projeto tem como Objetivo realizar o controle financeiro do cidadão comum. Basicamente deverá ser capaz de receber todas as receitas/despesas do individuo e fazer um balanço
-do total de gastos e o total de dinheiro, naquele período especifico.
+o projeto tem como Objetivo realizar o controle financeiro do cidadão comum. Basicamente deverá ser capaz de receber todas as receitas/despesas do indivíduo e fazer um balanço do total de gastos e se o saldo que sobrou é negativo ou positivo, naquele período especifico.
 # Tecnologias/Ferramentas Utilizadas
 <div>
 <img src="https://github.com/Roni-Braga/finan-as/blob/main/img/eclipse.png" width="170">
